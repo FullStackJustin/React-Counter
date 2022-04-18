@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "react"
   ],
@@ -10,7 +10,8 @@
   },
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "requireConfigFile": false,
   },
   "rules": {
     "strict":0,
